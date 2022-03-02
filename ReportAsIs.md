@@ -2,11 +2,15 @@ Model of Organization – as is
 
 # Identification
 
-Name, address
+Essity Italy S.p.A. with sole shareholder, registered office in Badia Pozzeveri - Lucca
 
-Fiscal ID  (ex partita iva, codice fiscale, ..)
+Fiscal ID: 03318780966
 
-Ateco or NACE code and category
+Ateco Code: 17.12
+
+Category: production and selling of hygiene and health care goods
+
+Website: [www.essity.it](www.essity.it)
 
 # Financial and legal information
 
