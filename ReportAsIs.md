@@ -54,7 +54,11 @@ The global organization is the following:
 
 Essity is an organization that has a functional geographical and divisional structure. It is divided into group functions (HR, Finance, Communications, Legal Affairs, Strategy & Business Development) and global units (Professional Hygiene, Consumer Goods, Latin America, Health and Medical Solutions, Global Supply Chain, Global Brand, Innovation and Sustainability, Global Operational Services).
 
+![Organization chart2](Images/Schermata_2022-03-02_alle_20.24.32.png)
 
+Also in Italy the organizational structure is the same.
+
+In addition to a legal and administrative office in Altopascio (Lucca) and a commercial office (Sales & Marketing) in Legnano (Milan), Essity in Italy has three plants located in Porcari (Lucca), Altopascio (Lucca) and Collodi (Pistoia) dedicated to "tissue" production.
 
 ### IT/IS  group / office
 
