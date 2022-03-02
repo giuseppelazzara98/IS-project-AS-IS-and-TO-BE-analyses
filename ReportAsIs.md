@@ -1,4 +1,4 @@
-Model of Organization – as is
+Model of Organization â€“ as is
 
 # Identification
 
@@ -10,7 +10,7 @@ Ateco or NACE code and category
 
 # Financial and legal information
 
-Legal form (ex srl, snc, sas, plc, co, …)
+Legal form (ex srl, snc, sas, plc, co, â€¦)
 
 Turn over year 2018
 
@@ -18,7 +18,7 @@ Turn over year 2018
 
 ## Size
 
-Number of employees, year 2018
+Essity is present in around 150 countries through leading global brands, such as TENA and Tork, and other important brands such as Jobst, Leukoplast, Libero, Libresse, Nuvenia, Lotus, Nosotras, Saba, Tempo, Vinda and Zewa. The Essity group has approximately 46,000 employees in the world and about 900 employees in Italy.
 
 ## Products, services
 
