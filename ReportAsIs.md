@@ -22,7 +22,11 @@ Essity is present in around 150 countries through leading global brands, such as
 
 ## Products, services
 
-Products or services offered
+Essity includes three business areas:
+- Health & Medical: encompasses the Incontinence Products Health Care and Medical Solutions categories.
+- Consumer Goods:includes the categories of Incontinence Products Retail, Baby Care, Feminine Care and Consumer Tissue.
+- Professional Hygiene: comprises complete hygiene solutions, including toilet paper, paper hand towels, napkins, hand soap, hand lotion, hand sanitizers, dispensers, cleaning and wiping products as well as service and maintenance under the globally leading Tork brand.
+
 
 ## Goal, goal type, mission, vision, strategy
 
