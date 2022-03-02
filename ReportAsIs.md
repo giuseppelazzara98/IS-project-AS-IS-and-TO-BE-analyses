@@ -14,9 +14,24 @@ Website: [www.essity.it](www.essity.it)
 
 # Financial and legal information
 
-Legal form (ex srl, snc, sas, plc, co, …)
+Legal form: S.p.A.
 
-Turn over year 2018
+Turn over year 2020: 479.000.000 €
+
+The ESSITY group recognizes the importance of sustainability excellence for the success of its business and therefore promotes the initiatives finalized to the achievement of social and environmental targets.
+
+Certifications: 
+
+- ISO 9001:2008 (Multisite)
+- ISO 14001: 2004 (Multisite) 
+- CoC-FSC (Multisite) 
+- CoC-PEFC (Multisite) 
+- OHSAS 18001:2007 (Multisite) 
+- SA 8000:2008 for all the manufacturing plan and for the administrative and commercial sites; 
+- ECOLABEL for Lucca 2 plant; 
+- ETR for the plants of Lucca 1, Altopascio e Collodi; 
+- EU ETS for the plants of Lucca 1, Altopascio e Collodi; • ITS – MPC – Altopascio.
+
 
 # Organizational variables
 
