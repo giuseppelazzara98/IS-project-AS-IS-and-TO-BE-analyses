@@ -52,6 +52,10 @@ The global organization is the following:
 
 ![Organization chart](Images/Schermata_2022-03-02_alle_20.06.26.png)
 
+Essity is an organization that has a functional geographical and divisional structure. It is divided into group functions (HR, Finance, Communications, Legal Affairs, Strategy & Business Development) and global units (Professional Hygiene, Consumer Goods, Latin America, Health and Medical Solutions, Global Supply Chain, Global Brand, Innovation and Sustainability, Global Operational Services).
+
+
+
 ### IT/IS  group / office
 
 If present, describe IT office (where in structure, size, skills)
