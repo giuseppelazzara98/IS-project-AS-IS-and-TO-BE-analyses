@@ -30,9 +30,9 @@ Essity includes three business areas:
 
 ## Goal, goal type, mission, vision, strategy
 
-As declared by the organization
+Essity has a clear strategy for increased value creation.Through the vision: Dedicated to improving well-being through leading hygiene and health solutions, Essity strives to achieve long-term value creation for shareholders, customers, consumers, society and employees. Essity's mission is to sustainably develop, produce, market and sell value-added products and services within hygiene and health. 
+Through innovation, digitalization, leading market positions and a greater presence in the fastest-growing sales channels, as well as world-class service levels, quality and efficiency, Essity creates added value for customers and consumers. His strategy and operations are based on a sustainable business model aimed at achieving profitable growth and responsible value creation, all of which is centered around customers and consumers.
 
-CSF (as declared by organization, or derived by you)
 
 ## Culture
 
