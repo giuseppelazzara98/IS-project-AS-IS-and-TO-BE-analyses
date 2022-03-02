@@ -35,6 +35,17 @@ Through innovation, digitalization, leading market positions and a greater prese
 
 
 ## Culture
+Essity’s culture is based on four main aspects: courage, collaboration, care and commitment.
+
+- Courage: this means high ambitions and focus on winning for the future. Essity’s employees are dedicated to developing innovative products and services that better serve customers and consumers;
+
+- Collaboration: this means people at Essity seek out diversity of perspectives and ideas. They also trust and challenge each other constructively and celebrate success as a team;
+
+- Care: this means showing respect and proactively supporting each other. Essity acts with integrity towards all stakeholders.Sustainability is part of everything the company does;
+
+- Commitment: this means dedication to delivering results and to improving everyday. 
+Another important point is that whatever is done, has to create a certain value.
+
 
 ## Structure
 
