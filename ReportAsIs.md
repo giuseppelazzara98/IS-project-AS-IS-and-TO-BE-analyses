@@ -50,7 +50,7 @@ Another important point is that whatever is done, has to create a certain value.
 ## Structure
 The global organization is the following:
 
-![Organization chart](https://git-softeng.polito.it/is-2021/group-12/is2021-22/-/blob/86d2b95f14791ffc1df8799648f5d2ef41e0d413/Images/Schermata_2022-03-02_alle_20.06.26.png)
+![Organization chart](Images/Schermata_2022-03-02_alle_20.06.26.png)
 
 ### IT/IS  group / office
 
