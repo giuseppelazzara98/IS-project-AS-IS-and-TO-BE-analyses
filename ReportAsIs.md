@@ -99,7 +99,10 @@ Argument if organization is: entrepreneurial start up / divisionalized bureaucra
 
 # Business Model Canvas
 
-
+	
+Business Model Canvas
+				
+![Business Model Canvas](Images/bmc.png)
 
 Remark: key processes box must be consistent with IS Views /  Process view (below)
 
@@ -157,9 +160,9 @@ Summarize the current IT strategy, discuss if it is consistent with the company 
 
 | CSF ID | Type (domain, distinguishing, environment, contingency) | Textual description, link to strategy | Related Metric(s) | Current value (if available) |
 | --- | --- | --- | --- | --- |
-| CSF1 |  Business |Increase customer satisfation   | Percentage of customer satisfied about the final products   |   |
-| CSF2  |Business | Increase efficiency of Graphic Department  | Number of skilled workers in Graphic Department  |   |
-| CSF3  |  Business | Increase efficiency of Customer Service  |  Time to process a new request from a customer and give to it a first feedback  |   |
+| CSF1 |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 ## KPI
 
