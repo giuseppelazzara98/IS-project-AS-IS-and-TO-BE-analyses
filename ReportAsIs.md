@@ -10,7 +10,7 @@ Ateco Code: 17.12
 
 Category: production and selling of hygiene and health care goods
 
-Website: [www.essity.it](www.essity.it)
+Website: [www.essity.it](https://www.essity.it/)
 
 # Financial and legal information
 
