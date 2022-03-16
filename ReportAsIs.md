@@ -118,6 +118,13 @@ List and describe key processes
 
 | Process name | Description (text) | Input | Output |
 | --- | --- | --- | --- |
+|Mananging of customer complaints|The customer makes a complaint about a product or a service offered by the company and gets assistance or a refound  | Customer complaint (email, face to face or call center) |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
 |   |   |   |   |
 
 (must be consistent with key processes box in BMC)
