@@ -118,9 +118,9 @@ List and describe key processes
 
 | Process name | Description (text) | Input | Output |
 | --- | --- | --- | --- |
-|Mananging of customer complaints|The customer makes a complaint about a product or a service offered by the company and gets assistance or a refound  | Customer complaint (email, face to face or call center) |   |
-|   |   |   |   |
-|   |   |   |   |
+|P1. Mananging of customer complaints|The customer makes a complaint about a product or a service offered by the company and gets assistance or a refound  | Customer complaint (email, face to face or call center) |   |
+|P2. Product design approval | End customer (EC) asks to the customer service (CS) of reference for a proof realization of a specific design representing for example customer’s logo. The CS representative gets in contact with the product service specialist (PS) belonging to the Altopascio competence center asking for a check on design feasibility and proof realization for it | Example of customer logo  | Check on design feasibility |
+|P3.   |   |   |   |
 |   |   |   |   |
 |   |   |   |   |
 |   |   |   |   |
