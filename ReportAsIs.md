@@ -118,14 +118,20 @@ List and describe key processes
 
 | Process name | Description (text) | Input | Output |
 | --- | --- | --- | --- |
-|P1. Mananging of customer complaints|The customer makes a complaint about a product or a service offered by the company and gets assistance or a refound  | Customer complaint (email, face to face or call center) |   |
-|P2. Product design approval | End customer (EC) asks to the customer service (CS) of reference for a proof realization of a specific design representing for example customer’s logo. The CS representative gets in contact with the product service specialist (PS) belonging to the Altopascio competence center asking for a check on design feasibility and proof realization for it | Example of customer logo  | Check on design feasibility |
-|P3.   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
+|P1. Mananging of customer complaints|The customer makes a complaint about a product or a service offered by the company and gets assistance or a refound  | Customer complaint (email, face to face or call center) | Recorded compliant, refound |
+|P2. Product design PT1| End customer (EC) asks to the customer service (CS) of reference for a proof realization of a specific design. The CS representative gets in contact with the product service specialist (PS) belonging to the Altopascio competence center asking for a check on design feasibility and proof realization for it | Example of customer logo  | |
+|P3. Product design PT2 | PS specialist registers the request in a dedicated database and forward the request of proof realization to the graphic department, also belonging to the Altopascio competence center. The Graphic department sends back the proof to the PS specialist once ready | Request of evaluation  | Evaluation on design feasibility and proof of realization  |
+| P4. Product design PT3  | PS specialist send back to the CS the proof realized with comment on feasibility and asking EC’s approval for the proof. If the EC agrees, CS send the approval to PS and asks to set the proof in SAP system, giving the green light to the CS for entering the customer order (SO) in SAP. | EC approval | Proof of realization in the SAP system |
+| P5. Production timeframe definition  | CS insert delivery date in the sales order, automatically SAP calculates correct production date, making a sum of different lead time, which are settled by article level.| Delivery date of different products | Production date of products |
+| P6. Raw materials check/ordering/production | Material planning departments check and confirm orders and productions of raw material. Each material can have a safety stock if needed and it’s calculated based on monthly forecast and supplier lead time for raw materials’ procurement. |  | Detailed account of orders/production of raw materials |
+| P7. Planning of different product orders | Planning department takes care of production’s optimization by grouping all orders which have same characteristics in order to avoid losses, creating product families to be reviewed with production leaders when needed and always keep attention to preserve delivery date.
+| Account of orders and their description  | Calendar of product orders |
+| P8. Production planning | Planning department confirm planned order in SAP and transform it into a production order, so it’s then visible to production’s people via Plain, an internal database linked to SAP which shows all relevant information (dates, quantities and duration) needed to start the preparation of the materials and organize all the activities the correct times.| Calendar of planned orders | Final production calendar |
+| P9. Product Shipment and delivery | When production is completed, Product Service creates a delivery number to associate order from the producing plant to the delivery plant. Supply Service takes care of the custom print shipping, creating the shipment number which is linked to delivery number, and can contain different orders to be sent to the same country: this information is filled and shared with carries via Transporeon, a digital platform. Carriers take care of reserving a loading slot on Transporeon platform for the day the load is requested from SAP. | Delivery number | New Shipment number and time |
+
+
+
+ 
 
 (must be consistent with key processes box in BMC)
 
