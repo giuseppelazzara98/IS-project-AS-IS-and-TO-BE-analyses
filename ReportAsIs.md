@@ -182,19 +182,44 @@ Summarize the current IT strategy, discuss if it is consistent with the company 
 
 ## KPI
 
-### Process X
+### Process 1
 
 (Process name must be consistent with IS view / Process view)
 
-KPI table for process X
+KPI table for process 1
 
-| KPI name | KPI type (general, service..) | description | Unit of measure | CSF covered (if any) | Current value (if available) |
-| --- | --- | --- | --- | --- | --- |
-|   |   |   |   |   |   |
+| KPI name | KPI type | Description | Unit of measure | CSF covered | Current value |
+| :---: | :---: | :--- | :---: | :---: | :---: |
+| N_EC | General | Number of end customers per year | Count | - | - |
+| N_P | General | Number of proofs realized per year | Count | - | - |
+| N_CO | General | Number of customer's orders per year | Count | - | - |
+| N_ECS | General | Number of employees belonging to the customer service | Count | - | - |
+| N_ECS | General | Number of employees belonging to the Altopascio competence center (including employees of the graphic department) | Count | - | - |
+| LT_PRD | Service | It is the time needed for the factory to ensure production availability, both for a capacity point of view and a material's order timing. It can be changed accordingly with RBL, Regional Business Logistic Director and sales representees, increased ad hoc in case of issues based on the capacity of the line or other issues | Time | - | - |
+| P_R | Service | Punctuality in delivering the work with respect to the estimated time | Time | CSF2 | - |
+| LT_R | Service | Lead time for proof realization (from the EC asks for a proof realization, to the CS sends the proof realized with comment on feasibility asking the approval from the end customer) | Time | CSF3, CSF4 | - |
+| T_C | Efficiency | Effort of employees belonging to the Altopascio competence center + effort of employees belonging to the customer service + cost of the software licences | Euro | - | - |
+| UC_O | Efficiency | Unit cost for an order = T_C / N_CO | Euro | - | - |
+| C_P | Quality | 100 * (#customer's orders with defects / N_CO) -> Order with defects: order issued with a proof realization not approved by customer, order issued with an old proof realization ecc. | % | CSF1 | - |
+| C_S | Quality | Customer satisfaction | Direct contact with CS representative | CSF1, CSF2, CSF3 | - |
 
-### Process Y
+### Process 2
 
 To be repeated for each relevant process (notably processes that will be changed in To Be)
+
+| KPI name | KPI type | Description | Unit of measure | CSF covered | Current value |
+| :---: | :---: | :--- | :---: | :---: | :---: |
+| N_S | General | Number of shipments per year | Count | - | - |
+| N_EPS | General | Number of employees belonging to product service | Count | - | - |
+|N_ESS | General | Number of employees belonging to supply service | Count | - |
+| LT_P | Service | Lead time of orders' planning (from customer's order entered to order delivered at delivery plant) | Time | - |
+| T_GRP | Service | Time needed to send goods from producing plant to the shipping warehouse | Time | - | - |
+| T_GIP | Service | Time needed for goods' acceptance and shipping's preparation | Time | - | - |
+| T_T | Service | Time needed to send the goods to delivery destination | Time | - | - |
+| T_C | Efficiency | Effort of employees belonging to supply service + effort of employees belonging to product service + cost of shipments + cost of software licences | Euro | - | - |
+| UC_S | Efficiency | Unit cost of shipments = T_C / N_D | Euro | - | - |
+| P_S | Quality | Punctuality of shipping with respect to the shipping's estimated time | Time | - |
+| N_OD | Quality | 100*(#shipments with defects / N_S) -> Shipments with defects: order assigned to the wrong shipment, shipment done to the wrong delivery plant ecc. | % | - | - |
 
 # Summary analysis
 
