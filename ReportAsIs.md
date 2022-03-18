@@ -178,6 +178,8 @@ Summarize the current IT strategy, discuss if it is consistent with the company 
 | CSF3.1 |  Business | Response time |  Time to process a new request from a EC(End Customer) and give to it a feedback  |   |
 | CSF3.2 |  Business | Courtesy level of Customer Service  | Number of complaints from EC  |   |
 | CSF4 |  Business |Competence of PS(Product Specialist) Service | Years of experience ||
+| CSF5 |  Business |Increase optimization by grouping all orders with the same characteristics| Number of merged orders ||
+| CSF6 |  Business |Supply Service fairness in operations| Number of operation without errors/Number of total operations ||
 
 
 ## KPI
