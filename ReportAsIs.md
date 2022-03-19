@@ -152,11 +152,7 @@ List IT applications or services used
 
 ### Technological view
 
-UML deployment diagram, showing computational nodes, and allocation of applications + data clusters to nodes
-
-(data clusters == group of classes, from the data model, UML class diagram)
-
-(applications are the ones identified in application portfolio)
+![DeploymentDiagram](Images/DeploymentDiagram1.jpg)
 
 ### Outsourcing
 
@@ -180,6 +176,7 @@ Summarize the current IT strategy, discuss if it is consistent with the company 
 | CSF4 |  Business |Competence of PS(Product Specialist) Service | Years of experience ||
 | CSF5 |  Business |Increase optimization by grouping all orders with the same characteristics| Number of merged orders ||
 | CSF6 |  Business |Supply Service fairness in operations| Number of operation without errors/Number of total operations ||
+| CSF7|  Business |Efficiency of shipment service about costs| Price per shipment(by agency)||
 
 
 ## KPI
