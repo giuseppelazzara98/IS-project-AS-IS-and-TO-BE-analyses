@@ -112,6 +112,8 @@ Remark: key processes box must be consistent with IS Views /  Process view (belo
 
 UML class diagram for data conceptual model (common to all processes / all organization)
 
+![UML class diagram](Images/data_model.png)
+
 ## Functional view, processes
 
 List and describe key processes
