@@ -145,8 +145,11 @@ For processes that will be changed in the transition to To Be report BPMN model
 List IT applications or services used
 
 | Application name | Vendor (or internal if made internally) | Main functions |
-| --- | --- | --- |
-|   |   |   |
+| :---: | :---: | :--- |
+| E-mail | Web based | Used for e-mail communications |
+| SAP | SAP | It is an ERP software used to manage all the informations and features (production date, planned order ecc.) related to each customer's order |
+| Plain | SmeUp | It is an ERP software used to show all the relevant information (dates, quantities and duration) needed to start the preparation of the materials and to organize all the activities in the correct times |
+| Transporeon | Transporeon Company | It is a digital platform used to create a shipment number, linked to a specific delivery number |
 
 
 
@@ -156,7 +159,13 @@ List IT applications or services used
 
 ### Outsourcing
 
-Highlight which IT service is outsourced (if any)
+The IT services outsourced are:
+
+|  | Object | Unicity | Location |
+| :---: | :---: | :--- | :---: |
+| SAP software | Application | Solution for many customers: shared, mass market (with some customization) | Off-site |
+| Plain software | Application | Solution for many customers: shared, mass market (with some customization) | Off-site |
+| Transporeon software | Application | Solution for many customers: shared, mass market | Off-site |
 
 # IT strategy
 
@@ -168,20 +177,21 @@ Summarize the current IT strategy, discuss if it is consistent with the company 
 
 | CSF ID | Type (domain, distinguishing, environment, contingency) | Textual description, link to strategy | Related Metric(s) | Current value (if available) |
 | --- | --- | --- | --- | --- |
-| CSF1 |  Business |Increase customer satisfaction   | Percentage of customer satisfied about the final products   |   |
-| CSF2  |Business | Increase efficiency of Graphic Department  | Number of skilled workers in Graphic Department  |   |
-| CSF3  |  Business | Increase efficiency of Customer Service  |    |   |
-| CSF3.1 |  Business | Response time |  Time to process a new request from a EC(End Customer) and give to it a feedback  |   |
-| CSF3.2 |  Business | Courtesy level of Customer Service  | Number of complaints from EC  |   |
-| CSF4 |  Business |Competence of PS(Product Specialist) Service | Years of experience ||
-| CSF5 |  Business |Increase optimization by grouping all orders with the same characteristics| Number of merged orders ||
-| CSF6 |  Business |Supply Service fairness in operations| Number of operation without errors/Number of total operations ||
-| CSF7|  Business |Efficiency of shipment service about costs| Price per shipment(by agency)||
+| CSF1 |  Business |Increase customer satisfaction   | Percentage of customer satisfied about the final products   | - |
+| CSF2  |Business | Increase efficiency of Graphic Department  | Number of skilled workers in Graphic Department  | - |
+| CSF3  |  Business | Increase efficiency of Customer Service  | - | - |
+| CSF3.1 |  Business | Response time |  Time to process a new request from a EC(End Customer) and give to it a feedback  | - |
+| CSF3.2 |  Business | Courtesy level of Customer Service  | Number of complaints from EC  | - |
+| CSF4 |  Business |Competence of PS(Product Specialist) Service | Years of experience | - |
+| CSF5 |  Business |Increase optimization by grouping all orders with the same characteristics| Number of merged orders | - |
+| CSF6 |  Business |Supply Service fairness in operations| Number of operation without errors/Number of total operations | - |
+| CSF7|  Business |Efficiency of shipment service about costs| Price per shipment(by agency)| - |
+| CSF8 | Business | Competitive cost of final product given the high level of market competition | Cost per single stock sold (specific for each customized product) | - |
 
 
 ## KPI
 
-### Process 1
+### Processes P1, P2, P3, P4, P5
 
 (Process name must be consistent with IS view / Process view)
 
@@ -198,11 +208,11 @@ KPI table for process 1
 | P_R | Service | Punctuality in delivering the work with respect to the estimated time | Time | CSF2 | - |
 | LT_R | Service | Lead time for proof realization (from the EC asks for a proof realization, to the CS sends the proof realized with comment on feasibility asking the approval from the end customer) | Time | CSF3, CSF4 | - |
 | T_C | Efficiency | Effort of employees belonging to the Altopascio competence center + effort of employees belonging to the customer service + cost of the software licences | Euro | - | - |
-| UC_O | Efficiency | Unit cost for an order = T_C / N_CO | Euro | - | - |
+| UC_O | Efficiency | Unit cost for an order = T_C / N_CO | Euro | CSF8 | - |
 | C_P | Quality | 100 * (#customer's orders with defects / N_CO) -> Order with defects: order issued with a proof realization not approved by customer, order issued with an old proof realization ecc. | % | CSF1 | - |
 | C_S | Quality | Customer satisfaction | Direct contact with CS representative | CSF1, CSF2, CSF3 | - |
 
-### Process 2
+### Processes P6, P7, P8, P9
 
 To be repeated for each relevant process (notably processes that will be changed in To Be)
 
@@ -210,15 +220,15 @@ To be repeated for each relevant process (notably processes that will be changed
 | :---: | :---: | :--- | :---: | :---: | :---: |
 | N_S | General | Number of shipments per year | Count | - | - |
 | N_EPS | General | Number of employees belonging to product service | Count | - | - |
-|N_ESS | General | Number of employees belonging to supply service | Count | - |
-| LT_P | Service | Lead time of orders' planning (from customer's order entered to order delivered at delivery plant) | Time | - |
-| T_GRP | Service | Time needed to send goods from producing plant to the shipping warehouse | Time | - | - |
-| T_GIP | Service | Time needed for goods' acceptance and shipping's preparation | Time | - | - |
-| T_T | Service | Time needed to send the goods to delivery destination | Time | - | - |
+|N_ESS | General | Number of employees belonging to supply service | Count | - | - |
+| LT_P | Service | Lead time of orders' planning (from customer's order entered to order delivered at delivery plant) | Time | CSF5 | - |
+| T_GRP | Service | Time needed to send goods from producing plant to the shipping warehouse | Time | CSF5 | - |
+| T_GIP | Service | Time needed for goods' acceptance and shipment's preparation | Time | CSF5 | - |
+| T_T | Service | Time needed to send the goods to delivery destination | Time | CSF5 | - |
 | T_C | Efficiency | Effort of employees belonging to supply service + effort of employees belonging to product service + cost of shipments + cost of software licences | Euro | - | - |
-| UC_S | Efficiency | Unit cost of shipments = T_C / N_D | Euro | - | - |
-| P_S | Quality | Punctuality of shipping with respect to the shipping's estimated time | Time | - |
-| N_OD | Quality | 100*(#shipments with defects / N_S) -> Shipments with defects: order assigned to the wrong shipment, shipment done to the wrong delivery plant ecc. | % | - | - |
+| UC_S | Efficiency | Unit cost of shipments = T_C / N_D | Euro | CSF7 | - |
+| P_S | Quality | Punctuality of shipment with respect to the shipment's estimated time | Time | CSF1, CSF6 | - |
+| N_OD | Quality | 100*(#shipments with defects / N_S) -> Shipments with defects: order assigned to the wrong shipment, shipment done to the wrong delivery plant ecc. | % | CSF1, CSF6 | - |
 
 # Summary analysis
 
