@@ -93,9 +93,9 @@ Report ratio: expense in IT / Turn over
 
 ## Organizational type
 
-Argument if organization is: mechanical / learning
+The Essity S.p.A. is organized in a mechanical structure due to productions and material requirements are based on centralized forecasts realized, respectively, once per week and month.
 
-Argument if organization is: entrepreneurial start up / divisionalized bureaucracy / etc
+The organization is a divisionalized bureaucracy because it has various brands and business units as well as divisional structure. Moreover, it counts facilities in 150 countries.
 
 # Business Model Canvas
 
