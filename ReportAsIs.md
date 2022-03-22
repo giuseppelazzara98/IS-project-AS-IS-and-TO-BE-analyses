@@ -81,13 +81,9 @@ In addition to a legal and administrative office in Altopascio (Lucca) and a com
 
 ### IT/IS  group / office
 
-If present, describe IT office (where in structure, size, skills)
+The IT office is centralized and based in Germany. Unfortunately, the company hasn’t shared with us any further information on how it is organized and managed. In any case, by the size of the company and the description of some processes it is possible to say that probably the IT office is in charge of the management of the database used to collect and handle the orders, as well as the security of customer data.
 
-If not, describe how IT services are decided and managed (external provider, external consultant, ..)
-
-If possible, report or estimate expense in IT
-
-Report ratio: expense in IT / Turn over
+IT expences could be estimated as 1%-3% of the total income, so it is around 5.000.000-14.000.000 €.
 
 ## Formalization / specialization/ centralization
 
