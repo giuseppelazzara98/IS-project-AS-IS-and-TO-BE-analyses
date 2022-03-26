@@ -60,7 +60,7 @@ Essity’s culture is based on four main aspects: courage, collaboration, care a
 
 - Collaboration: this means people at Essity seek out diversity of perspectives and ideas. They also trust and challenge each other constructively and celebrate success as a team;
 
-- Care: this means showing respect and proactively supporting each other. Essity acts with integrity towards all stakeholders.Sustainability is part of everything the company does;
+- Care: this means showing respect and proactively supporting each other. Essity acts with integrity towards all stakeholders. Sustainability is part of everything the company does;
 
 - Commitment: this means dedication to delivering results and to improving everyday. 
 Another important point is that whatever is done, has to create a certain value.
@@ -146,7 +146,13 @@ The IT services outsourced are:
 
 # IT strategy
 
-Summarize the current IT strategy, discuss if it is consistent with the company strategy
+IT in Essity plays an important role in planning production effectively, reducing costs, time and preserving the delivery date.
+
+Althought all these aspects are relevant, planning requires standard tools already offered by specialized society. Indeed, they need applications to manage production date, orders, row material and delivery, functionalities offered by tools like SAP, Plain, Transporeon.
+
+Sensitive and important information, such as customers data, is collected in a database that reasonably should be managed by the internal IT office. Essity hasn't shared this information with us, so it is our assumption considering the size of the company and some process descriptions.
+
+For all these reasons, the IT strategy can be considered consistence with the business strategy.
 
 # Indicators
 
