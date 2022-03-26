@@ -94,29 +94,20 @@ The Essity S.p.A. is organized in a mechanical structure due to productions and 
 The organization is a divisionalized bureaucracy because it has various brands and business units as well as divisional structure. Moreover, it counts facilities in 150 countries.
 
 # Business Model Canvas
-
-	
-Business Model Canvas
 				
 ![Business Model Canvas](Images/bmc.png)
-
-Remark: key processes box must be consistent with IS Views /  Process view (below)
 
 # IS Views
 
 ## Functional view, data
 
-UML class diagram for data conceptual model (common to all processes / all organization)
-
 ![UML class diagram](Images/data_model.png)
 
 ## Functional view, processes
 
-List and describe key processes
-
 | Process name | Description (text) | Input | Output |
 | --- | --- | --- | --- |
-|P1. Mananging of customer complaints|The customer makes a complaint about a product or a service offered by the company and gets assistance or a refound  | Customer complaint (email, face to face or call center) | Recorded compliant, refound |
+|P1. Mananging of customer complaints|The customer makes a complaint about a product or a service offered by the company and gets assistance  | Customer complaint (email, face to face or call center) | Recorded compliant, refound |
 |P2. Product design PT1| End customer (EC) asks to the customer service (CS) of reference for a proof realization of a specific design. The CS representative gets in contact with the product service specialist (PS) belonging to the Altopascio competence center asking for a check on design feasibility and proof realization for it | Example of customer logo  | |
 |P3. Product design PT2 | PS specialist registers the request in a dedicated database and forward the request of proof realization to the graphic department, also belonging to the Altopascio competence center. The Graphic department sends back the proof to the PS specialist once ready | Request of evaluation  | Evaluation on design feasibility and proof of realization  |
 | P4. Product design PT3  | PS specialist send back to the CS the proof realized with comment on feasibility and asking EC’s approval for the proof. If the EC agrees, CS send the approval to PS and asks to set the proof in SAP system, giving the green light to the CS for entering the customer order (SO) in SAP. | EC approval | Proof of realization in the SAP system |
@@ -126,21 +117,9 @@ List and describe key processes
 | P8. Production planning | Planning department confirm planned order in SAP and transform it into a production order, so it’s then visible to production’s people via Plain, an internal database linked to SAP which shows all relevant information (dates, quantities and duration) needed to start the preparation of the materials and organize all the activities the correct times.| Calendar of planned orders | Final production calendar |
 | P9. Product Shipment and delivery | When production is completed, Product Service creates a delivery number to associate order from the producing plant to the delivery plant. Supply Service takes care of the custom print shipping, creating the shipment number which is linked to delivery number, and can contain different orders to be sent to the same country: this information is filled and shared with carries via Transporeon, a digital platform. Carriers take care of reserving a loading slot on Transporeon platform for the day the load is requested from SAP. | Delivery number | New Shipment number and time |
 
-
-
- 
-
-(must be consistent with key processes box in BMC)
-
-(corresponds to &#39;Process identification&#39; step, see chapter &#39;Process redesign&#39; in lessons )
-
-For processes that will be changed in the transition to To Be report BPMN model
-
 ## IT  view
 
 ### Application portfolio
-
-List IT applications or services used
 
 | Application name | Vendor (or internal if made internally) | Main functions |
 | :---: | :---: | :--- |
@@ -191,8 +170,6 @@ Summarize the current IT strategy, discuss if it is consistent with the company 
 
 ### Processes P1, P2, P3, P4, P5
 
-(Process name must be consistent with IS view / Process view)
-
 KPI table for process 1
 
 | KPI name | KPI type | Description | Unit of measure | CSF covered | Current value |
@@ -211,8 +188,6 @@ KPI table for process 1
 | C_S | Quality | Customer satisfaction | Direct contact with CS representative | CSF1, CSF2, CSF3 | - |
 
 ### Processes P6, P7, P8, P9
-
-To be repeated for each relevant process (notably processes that will be changed in To Be)
 
 | KPI name | KPI type | Description | Unit of measure | CSF covered | Current value |
 | :---: | :---: | :--- | :---: | :---: | :---: |
