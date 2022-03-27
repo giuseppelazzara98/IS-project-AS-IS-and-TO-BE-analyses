@@ -43,13 +43,13 @@ Essity is present in around 150 countries through leading global brands, such as
 
 Essity includes three business areas:
 - Health & Medical: encompasses the Incontinence Products Health Care and Medical Solutions categories.
-- Consumer Goods:includes the categories of Incontinence Products Retail, Baby Care, Feminine Care and Consumer Tissue.
+- Consumer Goods: includes the categories of Incontinence Products Retail, Baby Care, Feminine Care and Consumer Tissue.
 - Professional Hygiene: comprises complete hygiene solutions, including toilet paper, paper hand towels, napkins, hand soap, hand lotion, hand sanitizers, dispensers, cleaning and wiping products as well as service and maintenance under the globally leading Tork brand.
 
 
 ## Goal, goal type, mission, vision, strategy
 
-Essity has a clear strategy for increased value creation.Through the vision: Dedicated to improving well-being through leading hygiene and health solutions, Essity strives to achieve long-term value creation for shareholders, customers, consumers, society and employees. Essity's mission is to sustainably develop, produce, market and sell value-added products and services within hygiene and health. 
+Essity has a clear strategy for increased value creation. Through the vision: Dedicated to improving well-being through leading hygiene and health solutions, Essity strives to achieve long-term value creation for shareholders, customers, consumers, society and employees. Essity's mission is to sustainably develop, produce, market and sell value-added products and services within hygiene and health. 
 Through innovation, digitalization, leading market positions and a greater presence in the fastest-growing sales channels, as well as world-class service levels, quality and efficiency, Essity creates added value for customers and consumers. His strategy and operations are based on a sustainable business model aimed at achieving profitable growth and responsible value creation, all of which is centered around customers and consumers.
 
 
@@ -71,7 +71,7 @@ The global organization is the following:
 
 ![Organization chart](Images/Schermata_2022-03-02_alle_20.06.26.png)
 
-Essity is an organization that has a functional geographical and divisional structure. It is divided into group functions (HR, Finance, Communications, Legal Affairs, Strategy & Business Development) and global units (Professional Hygiene, Consumer Goods, Latin America, Health and Medical Solutions, Global Supply Chain, Global Brand, Innovation and Sustainability, Global Operational Services).
+Essity is an organization that has a functional, geographical and divisional structure. It is divided into group functions (HR, Finance, Communications, Legal Affairs, Strategy & Business Development) and global units (Professional Hygiene, Consumer Goods, Latin America, Health and Medical Solutions, Global Supply Chain, Global Brand, Innovation and Sustainability, Global Operational Services).
 
 ![Organization chart2](Images/Schermata_2022-03-02_alle_20.24.32.png)
 
@@ -83,9 +83,7 @@ In addition to a legal and administrative office in Altopascio (Lucca) and a com
 
 The IT office is centralized and based in Germany. Unfortunately, the company hasn’t shared with us any further information on how it is organized and managed. In any case, by the size of the company and the description of some processes it is possible to say that probably the IT office is in charge of the management of the database used to collect and handle the orders, as well as the security of customer data.
 
-IT expences could be estimated as 1%-3% of the total income, so it is around 5.000.000-14.000.000 €.
-
-## Formalization / specialization/ centralization
+IT expences could be estimated as 1%-3% of the total income, so it could be around 5.000.000-14.000.000 €.
 
 ## Organizational type
 
@@ -107,10 +105,10 @@ The organization is a divisionalized bureaucracy because it has various brands a
 
 | Process name | Description (text) | Input | Output |
 | --- | --- | --- | --- |
-|P1. Mananging of customer complaints|The customer makes a complaint about a product or a service offered by the company and gets assistance  | Customer complaint (email, face to face or call center) | Recorded compliant, refound |
+|P1. Mananging of customer complaints|The customer makes a complaint about a product or a service offered by the company and gets assistance  | Customer complaint (email, face to face or call center) | Recorded compliant |
 |P2. Product design PT1| End customer (EC) asks to the customer service (CS) of reference for a proof realization of a specific design. The CS representative gets in contact with the product service specialist (PS) belonging to the Altopascio competence center asking for a check on design feasibility and proof realization for it | Example of customer logo  | |
 |P3. Product design PT2 | PS specialist registers the request in a dedicated database and forward the request of proof realization to the graphic department, also belonging to the Altopascio competence center. The Graphic department sends back the proof to the PS specialist once ready | Request of evaluation  | Evaluation on design feasibility and proof of realization  |
-| P4. Product design PT3  | PS specialist send back to the CS the proof realized with comment on feasibility and asking EC’s approval for the proof. If the EC agrees, CS send the approval to PS and asks to set the proof in SAP system, giving the green light to the CS for entering the customer order (SO) in SAP. | EC approval | Proof of realization in the SAP system |
+| P4. Product design PT3  | PS specialist send back to the CS the proof realized with comment on feasibility and asking EC’s approval for the proof. If the EC agrees, CS sends the approval to PS and asks to set the proof in SAP system, giving the green light to the CS for entering the customer order (SO) in SAP. | EC approval | Proof of realization in the SAP system |
 | P5. Production timeframe definition  | CS insert delivery date in the sales order, automatically SAP calculates correct production date, making a sum of different lead time, which are settled by article level.| Delivery date of different products | Production date of products |
 | P6. Raw materials check/ordering/production | Material planning departments check and confirm orders and productions of raw material. Each material can have a safety stock if needed and it’s calculated based on monthly forecast and supplier lead time for raw materials’ procurement. |  | Detailed account of orders/production of raw materials |
 | P7. Planning of different product orders | Planning department takes care of production’s optimization by grouping all orders which have same characteristics in order to avoid losses, creating product families to be reviewed with production leaders when needed and always keep attention to preserve delivery date.| Account of orders and their description  | Calendar of product orders |
@@ -150,16 +148,16 @@ IT in Essity plays an important role in planning production effectively, reducin
 
 Althought all these aspects are relevant, planning requires standard tools already offered by specialized society. Indeed, they need applications to manage production date, orders, row material and delivery, functionalities offered by tools like SAP, Plain, Transporeon.
 
-Sensitive and important information, such as customers data, is collected in a database that reasonably should be managed by the internal IT office. Essity hasn't shared this information with us, so it is our assumption considering the size of the company and some process descriptions.
+Sensitive and important information, such as customers data, are collected in a database that reasonably should be managed by the internal IT office. Essity hasn't shared this information with us, so it is our assumption considering the size of the company and some process descriptions.
 
-For all these reasons, the IT strategy can be considered consistence with the business strategy.
+For all these reasons, the IT strategy can be considered consistent with the business strategy.
 
 # Indicators
 
 ## CSF
 
-| CSF ID | Type (domain, distinguishing, environment, contingency) | Textual description, link to strategy | Related Metric(s) | Current value (if available) |
-| --- | --- | --- | --- | --- |
+| CSF ID | Type (domain, distinguishing, environment, contingency) | Textual description, link to strategy | Related Metric(s) | Current value |
+| :---: | :---: | --- | --- | :---: |
 | CSF1 |  Business |Increase customer satisfaction   | Percentage of customer satisfied about the final products   | - |
 | CSF2  |Business | Increase efficiency of Graphic Department  | Number of skilled workers in Graphic Department  | - |
 | CSF3  |  Business | Increase efficiency of Customer Service  | - | - |
@@ -175,8 +173,6 @@ For all these reasons, the IT strategy can be considered consistence with the bu
 ## KPI
 
 ### Processes P1, P2, P3, P4, P5
-
-KPI table for process 1
 
 | KPI name | KPI type | Description | Unit of measure | CSF covered | Current value |
 | :---: | :---: | :--- | :---: | :---: | :---: |
@@ -211,6 +207,11 @@ KPI table for process 1
 
 # Summary analysis
 
-Critical points in the organization and their possible interaction with IS.
+Essity is a multinational organization with customers belonging to 150 different countries. This is not something that happens by chance and, as a matter of fact, it means that in addition to the constant pursuit of environmental sustainability and excellence in every product they sell, each employee is fully focused on the company's goal.
 
-IT alignment problems.
+We chose to focus our attention on the part of the organization that manages production and customers in Italy. By analyzing the situation, we saw that the It area is aligned with the company's strategy, in fact, the main resources (both economic and physical), are employed in the production, care of the products and the relationship with customers. That's why the majority of the IT services (SAP, Plain ecc.) are outsourced.
+
+We therefore chose to analyze the customized napkins production process which can be split into two smaller sub-processes (BPMN1, BPMN2).
+
+We think that although the entire process is well organized, the overall situation could be better, in particular for the **raw materials check** (P6 in the processes table) and the **product design** (P2, P3, P4 in the processes table), where for instance, revisions and improvements could imply a less waste of resources and a more efficient communication between the customer, the customer service and the product service specialist. This will be one of the subject covered in the To Be report.
+
