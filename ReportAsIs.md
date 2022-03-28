@@ -220,7 +220,7 @@ Essity is a multinational organization with customers belonging to 150 different
 
 We chose to focus our attention on the part of the organization that manages production and customers in Italy. By analyzing the situation, we saw that the It area is aligned with the company's strategy, in fact, the main resources (both economic and physical), are employed in the production, care of the products and the relationship with customers. That's why the majority of the IT services (SAP, Plain ecc.) are outsourced.
 
-We therefore chose to analyze the process of products' customization which can be split into two smaller sub-processes (BPMN1, BPMN2).
+We therefore chose to analyze the customization of products which can be split into two smaller sub-processes (BPMN1, BPMN2).
 
 We think that although the entire process is well organized, the overall situation could be better, in particular for the **raw materials check** (P6 in the processes table) and the **product design** (P2, P3, P4 in the processes table), where for instance, revisions and improvements could imply a less waste of resources and a more efficient communication between the customer, the customer service and the product service specialist. This will be one of the subject covered in the To Be report.
 
