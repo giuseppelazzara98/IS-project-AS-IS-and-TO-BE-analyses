@@ -209,6 +209,7 @@ For all these reasons, the IT strategy can be considered consistent with the bus
 | T_GRP | Service | Time needed to send goods from producing plant to the shipping warehouse | Time | CSF5 | - |
 | T_GIP | Service | Time needed for goods' acceptance and shipment's preparation | Time | CSF5 | - |
 | T_T | Service | Time needed to send the goods to delivery destination | Time | CSF5 | - |
+| T_CH | Service | Time needed to check availability of materials in stock | Time | CSF9 | - |
 | T_C | Efficiency | Effort of employees belonging to supply service + effort of employees belonging to product service + cost of shipments + cost of software licences | Euro | - | - |
 | UC_S | Efficiency | Unit cost of shipments = T_C / N_D | Euro | CSF7 | - |
 | P_S | Quality | Punctuality of shipment with respect to the shipment's estimated time | Time | CSF1, CSF6 | - |
