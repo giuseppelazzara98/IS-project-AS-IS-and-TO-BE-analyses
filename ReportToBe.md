@@ -45,6 +45,7 @@ other wise detail only the box(es) that change
 
 ![UML class diagram](Images/data_model_to_be.png)
 
+
 The new process is managed by an application that allows the automatization of the order request and the check of the state by the customer. For these reasons an account is required for both user and employee as even the workers will access the order information via the app.
 
 Furthermore, it's now possible for the customers to add comments while approving or rejecting the proof and a design feasibility will be attached to each request, even when the request is rejected by the "Altopascio competence center".
@@ -101,8 +102,11 @@ Show how the selected application provides the software functions needed (as ide
 
 
 ### Technological view
+![DeploymentDiagramTOBE](Images/DeploymentDiagramTOBE.jpg)
 
-Write no change in case. Otherwise report the new deployment diagram and highlight the changes
+The new Deployment Diagram highlights the introduction of the new applications.
+The first one that manage the customer relationship from the assistance to the creation of a new order with a dedicated interface for draft approval. 
+The second one concerns the orders for raw materials with the introduction of bar code scanner and the related bar code for the products.
 
 #### Integration
 
