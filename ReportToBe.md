@@ -126,7 +126,12 @@ Report only indicators that are supposed to change, argument on why the change h
 
 | Indicator (Csf, Kpi) name | Effect | Quantitative estimate of variation (absolute, %) |
 | --- | --- | --- |
-|   |   |   |
+|  CSF1: Customer Satsifation |  Increase because the customers have more managment and user-friendly with the app  |   +20% |
+|CSF3|The customer service manage the comunication with the customer in a better way with a GUI and trough the app |+30%|
+|CSF3.1|The response time (to process a new request from a EC and give to it a feedback) decrease thanks to the good realization of the all infrastructure around the new managment software |- 20%|
+|CSF5|The number of merged order can be increase thanks to an algorithm| +15% |
+|CSF9: Time from check stock of raw materials to order new materials or confirm planned SAP order|The process time has an important decrease because the app automatically manage if a new order is needed  |- 40%|
+
 
 ## TCO, ROI and Break even
 
