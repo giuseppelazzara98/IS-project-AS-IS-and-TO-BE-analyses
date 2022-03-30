@@ -177,6 +177,7 @@ For all these reasons, the IT strategy can be considered consistent with the bus
 | CSF6 |  Business |Supply Service fairness in operations| Number of operation without errors/Number of total operations | - |
 | CSF7|  Business |Efficiency of shipment service about costs| Price per shipment(by agency)| - |
 | CSF8 | Business | Competitive cost of final product given the high level of market competition | Cost per single stock sold (specific for each customized product) | - |
+| CSF 9  |Business | Increase efficiency of Planning Department | Time from check stock of raw materials to order new materials or confirm planned SAP order| - |
 
 
 ## KPI
