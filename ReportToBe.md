@@ -58,9 +58,36 @@ Write no change if the model remains as in As Is
 
 Report the PICK chart (see process redesign chapter)  used to select the process to be changed and argument about it
 
-### Process y
+### Process 1
+
+The main problem we found in the As-Is product design process was the number of steps required to fufill a simple request to the Graphic's department. The End customer had to first contact the Essity Customer Service, then the CS had to contact the Altopascio competence center's Product service department, who would have to record in a database the requests to keep track of them. At this point the PS department could contact the Graphic's department and ask for the check and the proof realization. 
+All these communications were done by email, so the process was bound to create difficulties in case of an human error (employee fails to send email) and it could take a great amount of time, especially if we consider that a product design can be sent back many times before the final approval. 
+
+We can fix these problems using a specific application that gives direct contact between the End Customer and the Graphic's department. When the EC finished the product design example, he can upload it to the application using a specific request form and notify the Graphic's department, who can at that point start the procedure to check the feasibility of the design. All the communications and the feedback between the two entities can be done through the application, who will send a specific notification every time, and are stored in the application's database.
+
+Every End Customer and Graphic's department employee has an account on the application, with specific privileges depending on their role in the process. The Essity Customer Service department's employees also have accounts to manage eventual assistance requests from the End Customers. 
+
+
+![Proc1](Images/proc1_tobe.png)
+
+
+| Activity in BPMN | Supporting Software functions |
+| --- | --- |
+| Upload new product design example |  |
+| Add feedback to product design example |   |
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+
+### Process 2
 
 For each changed process report the new BPMN (highlight where are the changes and why) and  the software functions needed by the IS, as follows
+![Proc2](Images/proc2_tobe.png)
 
 | Activity in BPMN | Supporting Software functions |
 | --- | --- |
