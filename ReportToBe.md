@@ -71,6 +71,7 @@ The Essity Customer Service department's employees also have accounts to manage 
 
 | Activity in BPMN | Supporting Software functions |
 | --- | --- |
+|Create End Customer's account|POST EC's data|
 |Upload new product design example|POST product design example|
 |Add feedback to product design example|PUT feedback of design|
 |Send request for proof realization| Create and Send notification|
@@ -88,13 +89,21 @@ The Essity Customer Service department's employees also have accounts to manage 
 
 In the As-Is process the Planning Department has to check the raw material stock for every order received. If the materials are not enough to fufill the order, the department has to get in touch directly with the suppliers and reject the order while it waits for the Production facility to replenish their stock. This is a problem because it loses the company a lot of time waiting for the raw materials and it makes them postpone orders. 
 To fix this problem we thought the Production Facility could implement its own checking process for the stock. 
+Every material in the facility gets scanned manually with a bar code scanner and is recorded on the application so that we can keep track of the materials that exit the warehouse. The stock is checked by a production department employee through the application every day, and if it gets under a certain threshold the application manages the order request for the suppliers. After the supplier notifies the shipping of the raw materials, the production facility stock gets replenished. 
+The application has an inventory of the products for the warehouse that are associated with a specific barcode. It also has an account for the suppliers and the production facility to manage the communications between them, for example when the production facility needs to order new material. 
+In the application it's also possible to modify the stock's threshold.
 
 ![Proc2](Images/proc2_tobe.png)
 
 | Activity in BPMN | Supporting Software functions |
 | --- | --- |
-|   |   |
-|   |   |
+| Scan new raw material | Barcode scanner |
+| Add new material to inventory | POST material description and barcode  |
+| Check if stock's is under threshold  | GET warehouse information and execute script based on BR|
+| Modify stock's threshold | PUT new threshold |
+| Create new production facility account| POST production facility data|
+|Add new supplier to supplier list|PUT supplier's description|
+|Make order to supplier|Create and send notification|
 
 ## IT view
 
