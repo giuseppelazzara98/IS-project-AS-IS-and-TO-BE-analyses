@@ -14,23 +14,13 @@ Keep this section and subsections, if there is no change just write &#39;no chan
 
 ## Size
 
-&#39;no change&#39;
-
 ## Products services
-
-&#39;no change&#39;
 
 ## Goal, goal type, vision, mission, strategy
 
-&#39;no change&#39;
-
 ## Culture
 
-&#39;no change&#39;
-
 ## Structure
-
-&#39;no change&#39;
 
 ### IT office
 
@@ -44,10 +34,7 @@ The IT Office will slightly change because new backend functionality will be add
 
 # Business model canvas
 
-if there is no change just write &#39;no change&#39;
-
-other wise detail only the box(es) that change
-
+![BMC](Images/bmc_tobe.png)
 
 # IS Views
 
@@ -75,7 +62,8 @@ All these communications were done by email, so the process was bound to create 
 
 We can fix these problems using a specific application that gives direct contact between the End Customer and the Graphic's department. When the EC finished the product design example, he can upload it to the application using a specific request form and notify the Graphic's department, who can at that point start the procedure to check the feasibility of the design. All the communications and the feedback between the two entities can be done through the application, who will send a specific notification every time, and are stored in the application's database.
 
-Every End Customer and Graphic's department employee has an account on the application, with specific privileges depending on their role in the process. The Essity Customer Service department's employees also have accounts to manage eventual assistance requests from the End Customers. 
+Every End Customer and Graphic's department employee has an account on the application, with specific privileges depending on their role in the process. The End Customer can check the state of the procedure in the application by logging into the page dedicated to the specific process.
+The Essity Customer Service department's employees also have accounts to manage eventual assistance requests from the End Customers. 
 
 
 ![Proc1](Images/proc1_tobe.png)
@@ -83,20 +71,24 @@ Every End Customer and Graphic's department employee has an account on the appli
 
 | Activity in BPMN | Supporting Software functions |
 | --- | --- |
-| Upload new product design example |  |
-| Add feedback to product design example |   |
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
+|Upload new product design example|POST product design example|
+|Add feedback to product design example|PUT feedback of design|
+|Send request for proof realization| Create and Send notification|
+|Create product design approval process|Create procedure in software application|
+|Upload proof realization of design|POST proof realization|
+|Add feedback to proof realization|PUT feedback of proof|
+|Search for proof realization by design id| GET proof realization|
+|Search for design example|GET product design example|
+|Send approval for design feasibility| Create and Send notification|
+|Send approval for  proof realization| Create and Send notification|
+
+
 
 ### Process 2
 
-For each changed process report the new BPMN (highlight where are the changes and why) and  the software functions needed by the IS, as follows
+In the As-Is process the Planning Department has to check the raw material stock for every order received. If the materials are not enough to fufill the order, the department has to get in touch directly with the suppliers and reject the order while it waits for the Production facility to replenish their stock. This is a problem because it loses the company a lot of time waiting for the raw materials and it makes them postpone orders. 
+To fix this problem we thought the Production Facility could implement its own checking process for the stock. 
+
 ![Proc2](Images/proc2_tobe.png)
 
 | Activity in BPMN | Supporting Software functions |
@@ -108,20 +100,25 @@ For each changed process report the new BPMN (highlight where are the changes an
 
 ### Application portfolio
 
-Basically the organization, continues to use the same application portfolio as in As Is situation but in the To Be situation, two new applications are introduced: CAPP (Customer Application) and CRW (Check Row material application).
+Write no change if the portfolio remains as in As Is
 
-We have reported below the description about only these two new applications.
-
-| Application name | Vendor (or internal if made internally) | Main functions |
-| :---: | :---: | :--- |
-| CAPP | internal | This application is used to manage with more automation and without some intermediate steps the interaction between the graphic department and the customer |
-| CRW | internal | This application is used to check each time a raw material exits the warehouse the remaining availability of that item. The application is so used to notificate the planning department on when a new order has to be done |
+Otherwise list here the new portfolio, highlighting new applications, and abandoned applications
 
 #### Selection
 
-The two new applications introduced have to be developed custom for the company mainly for two reasons:
-- Firstly as we wrote in the "IT Strategy" section, the core business of the company is not to develop software and so, relying on external developers should be less expensive in terms of time and money and also allows the company to continue focusing resources and employees on the same objectives of the As Is situation.
-- Secondly, these applications, should manage a lot of sensible informations and then, unlike the other outsourced applications in the application portfolio, here, the outsourcing possibility is not considered.
+Describe the applications considered for the selection
+
+| Application name | Vendor | Description | Price model and fees |
+| --- | --- | --- | --- |
+|   |   |   |   |
+
+Describe here how the selection of the new application was made
+
+| Criterion | Application1 | Application2 | Application x |
+| --- | --- | --- | --- |
+|   |   |   |   |
+
+Alternatively argue that the new application should be developed custom for the company.
 
 #### Coverage
 
@@ -162,23 +159,16 @@ Report only indicators that are supposed to change, argument on why the change h
 
 | Indicator (Csf, Kpi) name | Effect | Quantitative estimate of variation (absolute, %) |
 | --- | --- | --- |
-|  CSF1: Customer Satsifation |  Increase because the customers have more managment and user-friendly with the app  | 20% |
-|CSF3|The customer service manage the comunication with the customer in a better way with a GUI and trough the app | 30% |
-|CSF3.1|The response time (to process a new request from a EC and give to it a feedback) decrease thanks to the good realization of the all infrastructure around the new managment software | 20% |
-|CSF5|The number of merged orders can increase thanks to an algorithm| 15% |
-|CSF9: Time from check stock of raw materials to order new materials or confirm planned SAP order|The process time has an important decrease because the app automatically manage if a new order is needed  | 40% |
-| N_ECS | Could decrease a little because few employees belonging to the customer service could be assigned to other departments  | 5% |
-| LT_R | It decreases thanks to the CAPP application. Time for realizing the proof still depends on the graphic department but intermediate steps and useless losses of time are avoided | 30% |
-| T_C1, UC_O | They decrease because thanks to the CAPP, effort of employees belonging to the customer service and Altopascio competence center decreases. Costs for software licences of outsourced applications remain the same | 20% |
-| N_EPD | Could decrease a little because few employees belonging to the planning department could be assigned to other departments | 5% |
-| T_CH | Thanks to automation introduced by the CRW app it should become zero | 100% |
-| T_C2, UC_O | They decrease a little because thanks to the CRW app, effort of planning department employees decreases. Effort of employees belonging to other departments and costs for software licences of outsourced applications remain the same | 10% |
-| C_S | It increases thanks to the more efficient service offered by the customer service + CAPP | 10% |
+|  CSF1: Customer Satsifation |  Increase because the customers have more managment and user-friendly with the app  |   +20% |
+|CSF3|The customer service manage the comunication with the customer in a better way with a GUI and trough the app |+30%|
+|CSF3.1|The response time (to process a new request from a EC and give to it a feedback) decrease thanks to the good realization of the all infrastructure around the new managment software |- 20%|
+|CSF5|The number of merged order can be increase thanks to an algorithm| +15% |
+|CSF9: Time from check stock of raw materials to order new materials or confirm planned SAP order|The process time has an important decrease because the app automatically manage if a new order is needed  |- 40%|
 
 
 ## TCO, ROI and Break even
 
-Define the TCO for the change (use a 3 - 5 years horizon)
+Define the TCO for the change (use a 3 -5 years horizon)
 
 Estimate costs (from TCO) and savings, and discuss the number of years needed to recover the investment
 
