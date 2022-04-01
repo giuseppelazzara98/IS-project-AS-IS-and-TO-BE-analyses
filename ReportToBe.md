@@ -170,7 +170,7 @@ The introduction of a new application follows the Business Strategy of creating 
 Report only indicators that are supposed to change, argument on why the change has an effect on them, report how much the indicator could change. Do not forget the unit cost of the product / service.
 
 | Indicator (Csf, Kpi) name | Effect | Quantitative estimate of variation (absolute, %) |
-| --- | --- | --- |
+| --- | --- | :---: |
 |  CSF1: Customer Satsifation |  Increase because the customers have more managment and user-friendly with the app  | 20% |
 |CSF3|The customer service manage the comunication with the customer in a better way with a GUI and trough the app | 30% |
 |CSF3.1|The response time (to process a new request from a EC and give to it a feedback) decrease thanks to the good realization of the all infrastructure around the new managment software | 20% |
@@ -204,7 +204,7 @@ Assuming:
 | --- | :---: | :---: | :---: | :---: | :---: |
 | **Cost** | C,D,O,M | O,M | O,M | O,M | O,M |
 | **Saving** | SV | SV | SV | SV | SV |
-| **Total** | -25000€ | -15000€ | -5000 | 5000 | 15000 |
+| **Total** | -25000€ | -15000€ | -5000€ | 5000€ | 15000€ |
 
  - The majority of savings(SV) depends on the lower costs related to the effort of employees
 
