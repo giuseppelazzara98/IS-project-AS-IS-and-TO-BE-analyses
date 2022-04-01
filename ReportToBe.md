@@ -123,14 +123,16 @@ We have reported below the description about only these two new applications.
 
 | Application name | Vendor (or internal if made internally) | Main functions |
 | :---: | :---: | :--- |
-| CAPP | internal | This application is used to manage with more automation and without some intermediate steps the interaction between the graphic department and the customer |
-| CRW | internal | This application is used to check each time a raw material exits the warehouse the remaining availability of that item. The application is so used to notificate the planning department on when a new order has to be done |
+| CAPP | internal back-end / external front-end | This application is used to manage with more automation and without some intermediate steps the interaction between the graphic department and the customer |
+| CRW | internal back-end / external front-end | This application is used to check each time a raw material exits the warehouse the remaining availability of that item. The application is so used to notificate the planning department on when a new order has to be done |
 
 #### Selection
 
-The two new applications introduced have to be developed custom for the company mainly for two reasons:
-- Firstly as we wrote in the "IT Strategy" section, the core business of the company is not to develop software and so, relying on external developers should be less expensive in terms of time and money and also allows the company to continue focusing resources and employees on the same objectives of the As Is situation.
-- Secondly, these applications, should manage a lot of sensible informations and then, unlike the other outsourced applications in the application portfolio, here, the outsourcing possibility is not considered.
+The two new applications introduced have to be developed custom for the company.
+
+In particular, we thought that according to the IT strategy, it would be better for the company to outsource only the front-end development of the two applications. 
+
+As a metter of fact, the core business of the company is not to develop software and so, relying on external developers should be less expensive in terms of time and money and also allows the company to continue focusing resources and employees on the same objectives of the As Is situation but, on the other hand, these applications, should manage a lot of sensible informations and then, it would be better if the back-end development of the applications, based on aspects like privacy and security of users, is managed and developed internally.
 
 #### Coverage
 
@@ -168,10 +170,6 @@ On the other hand, the introduction of a new application follows the Business St
 
 ## Effect on KPIs and CSFs
 
-(remark, KPIs and CSFs should not depend on the change, but should remain the ones defined in the As Is section – the goal being to compare the effect of the change on the same indicators)
-
-Report only indicators that are supposed to change, argument on why the change has an effect on them, report how much the indicator could change. Do not forget the unit cost of the product / service.
-
 | Indicator (Csf, Kpi) name | Effect | Quantitative estimate of variation (absolute, %) |
 | --- | --- | :---: |
 |  CSF1: Customer Satsifation |  Increase because the customers have more managment and user-friendly with the app  | 20% |
@@ -193,7 +191,7 @@ Report only indicators that are supposed to change, argument on why the change h
 | Phase | Description |
 | :---: | :--- |
 | Construction C | Acquisition or development of new physical and IT infrastructure |
-| Deployment D | Training of employees, installation of bar code readers |
+| Deployment D | Training of employees, installation of bar code readers, deployment of new software and IT functions |
 | Operation O | Electricity, conditioning, effort of employees |
 | Maintenance M | Maintenance of physical and IT infrastructure |
 | Dismissal DIS | Uninstall applications, infrastructure dismissal and data porting to new IT infrastructure |
