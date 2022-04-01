@@ -10,17 +10,25 @@ The following sections are meant to describe in more detail the changes, using t
 
 # Organizational variables
 
-Keep this section and subsections, if there is no change just write &#39;no change&#39;.  In case there is a change detail it.
-
 ## Size
+
+&#39;no change&#39;
 
 ## Products services
 
+&#39;no change&#39;
+
 ## Goal, goal type, vision, mission, strategy
+
+&#39;no change&#39;
 
 ## Culture
 
+&#39;no change&#39;
+
 ## Structure
+
+&#39;no change&#39;
 
 ### IT office
 
@@ -109,25 +117,20 @@ In the application it's also possible to modify the stock's threshold.
 
 ### Application portfolio
 
-Write no change if the portfolio remains as in As Is
+Basically the organization, continues to use the same application portfolio as in As Is situation but in the To Be situation, two new applications are introduced: CAPP (Customer Application) and CRW (Check Row material application).
 
-Otherwise list here the new portfolio, highlighting new applications, and abandoned applications
+We have reported below the description about only these two new applications.
+
+| Application name | Vendor (or internal if made internally) | Main functions |
+| :---: | :---: | :--- |
+| CAPP | internal | This application is used to manage with more automation and without some intermediate steps the interaction between the graphic department and the customer |
+| CRW | internal | This application is used to check each time a raw material exits the warehouse the remaining availability of that item. The application is so used to notificate the planning department on when a new order has to be done |
 
 #### Selection
 
-Describe the applications considered for the selection
-
-| Application name | Vendor | Description | Price model and fees |
-| --- | --- | --- | --- |
-|   |   |   |   |
-
-Describe here how the selection of the new application was made
-
-| Criterion | Application1 | Application2 | Application x |
-| --- | --- | --- | --- |
-|   |   |   |   |
-
-Alternatively argue that the new application should be developed custom for the company.
+The two new applications introduced have to be developed custom for the company mainly for two reasons:
+- Firstly as we wrote in the "IT Strategy" section, the core business of the company is not to develop software and so, relying on external developers should be less expensive in terms of time and money and also allows the company to continue focusing resources and employees on the same objectives of the As Is situation.
+- Secondly, these applications, should manage a lot of sensible informations and then, unlike the other outsourced applications in the application portfolio, here, the outsourcing possibility is not considered.
 
 #### Coverage
 
@@ -168,18 +171,44 @@ Report only indicators that are supposed to change, argument on why the change h
 
 | Indicator (Csf, Kpi) name | Effect | Quantitative estimate of variation (absolute, %) |
 | --- | --- | --- |
-|  CSF1: Customer Satsifation |  Increase because the customers have more managment and user-friendly with the app  |   +20% |
-|CSF3|The customer service manage the comunication with the customer in a better way with a GUI and trough the app |+30%|
-|CSF3.1|The response time (to process a new request from a EC and give to it a feedback) decrease thanks to the good realization of the all infrastructure around the new managment software |- 20%|
-|CSF5|The number of merged order can be increase thanks to an algorithm| +15% |
-|CSF9: Time from check stock of raw materials to order new materials or confirm planned SAP order|The process time has an important decrease because the app automatically manage if a new order is needed  |- 40%|
+|  CSF1: Customer Satsifation |  Increase because the customers have more managment and user-friendly with the app  | 20% |
+|CSF3|The customer service manage the comunication with the customer in a better way with a GUI and trough the app | 30% |
+|CSF3.1|The response time (to process a new request from a EC and give to it a feedback) decrease thanks to the good realization of the all infrastructure around the new managment software | 20% |
+|CSF5|The number of merged orders can increase thanks to an algorithm| 15% |
+|CSF9: Time from check stock of raw materials to order new materials or confirm planned SAP order|The process time has an important decrease because the app automatically manage if a new order is needed  | 40% |
+| N_ECS | Could decrease a little because few employees belonging to the customer service could be assigned to other departments  | 5% |
+| LT_R | It decreases thanks to the CAPP application. Time for realizing the proof still depends on the graphic department but intermediate steps and useless losses of time are avoided | 30% |
+| T_C1, UC_O | They decrease because thanks to the CAPP, effort of employees belonging to the customer service and Altopascio competence center decreases. Costs for software licences of outsourced applications remain the same | 20% |
+| N_EPD | Could decrease a little because few employees belonging to the planning department could be assigned to other departments | 5% |
+| T_CH | Thanks to automation introduced by the CRW app it should become zero | 100% |
+| T_C2, UC_O | They decrease a little because thanks to the CRW app, effort of planning department employees decreases. Effort of employees belonging to other departments and costs for software licences of outsourced applications remain the same | 10% |
+| C_S | It increases thanks to the more efficient service offered by the customer service + CAPP | 10% |
 
 
 ## TCO, ROI and Break even
 
-Define the TCO for the change (use a 3 -5 years horizon)
+| Phase | Description |
+| :---: | :--- |
+| Construction C | Acquisition or development of new physical and IT infrastructure |
+| Deployment D | Training of employees, installation of bar code readers |
+| Operation O | Electricity, conditioning, effort of employees |
+| Maintenance M | Maintenance of physical and IT infrastructure |
+| Dismissal DIS | Uninstall applications, infrastructure dismissal and data porting to new IT infrastructure |
 
-Estimate costs (from TCO) and savings, and discuss the number of years needed to recover the investment
+Assuming:
+- **5 years horizon**
+- Dismissal phase after 5 years
+- **C+D** = 35000€, **O+M** = 3000€, **S** = 13000€
+
+|  | **Year1** | **Year2** | **Year3** | **Year4** | **Year5** |
+| --- | :---: | :---: | :---: | :---: | :---: |
+| **Cost** | C,D,O,M | O,M | O,M | O,M | O,M |
+| **Saving** | SV | SV | SV | SV | SV |
+| **Total** | -25000€ | -15000€ | -5000 | 5000 | 15000 |
+
+ - The majority of savings(SV) depends on the lower costs related to the effort of employees
+
+- Assuming the costs we reported above, the break-even point is reached at the fourth year
 
 ## Risks
 
