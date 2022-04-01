@@ -4,9 +4,14 @@ Model of Organization – To Be
 
 # Summary of changes
 
-Here describe at high level the change(s), and their motivation. Link with critical points identified in As Is analysis
+Essity is a growing company focused on staying closer to customers and, at the same time, on reducing their environmental impact. To better meet these goals, even thought both processes analyzed are well organized, we think that it is possible to set up new functionalities in order to improve the planning of activities as well as to increase customers satisfaction.
 
-The following sections are meant to describe in more detail the changes, using the same structure used in the As Is document.
+Indeed, both processes, row material check and product design, have some problems: 
+- in the "production design" process the comunications between customer and company and between different department of the same company is based on email: customer send a request to the customer service via email, which fills a new request and sends it to the Altopascio competence center, again, via email ect. Moreover, customers have no feedback on the status of the request and, after they have submitted it, they can't give feedback on the proof apart from accepted/rejected.
+Furthermore we believe that the process of request (customer make a request - graphic department give a feedback) has more steps than necessary, and so it could be accelerated.
+- in the "row material check" process every time a order arrives, it must be checked if the row material are sufficient, otherwise the order can't be satisfied untill the arrival of new raw materials. Checking row material everytime a order arrives can cause a block on the production and possibly a delay in the delivery date.
+
+We think that these problems can be solved by introducing two applications, one B2C and one B2B: the B2B app will be used to semi-automate the process of row material checking, which will notify employees when new material needs to be ordered, while the B2C application will fully automate the request for a new order, enabling in-app communication instead of the use of emails
 
 # Organizational variables
 
