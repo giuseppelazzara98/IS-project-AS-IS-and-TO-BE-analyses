@@ -159,7 +159,10 @@ Control mechanism (mechanism used by applications to interact, ex message passin
 
 # IT strategy
 
-The introduction of a new application follows the Business Strategy of creating values, in this case, for the customer. It will likely need a reorganization in order to meet new requests on data management.
+Applications development is not Essity's core business and hiring resources to develop them is not a necessary effort for the company. This is why the choice to entrust the development of the app to a specialized external company makes sense and allows the IT office to focus on the security of the customer's data, which remains internalized.
+
+On the other hand, the introduction of a new application follows the Business Strategy of creating values, in this case, for the customer. Therefore, the IT department will likely need a reorganization in order to meet new demands on data management.
+
 
 # Effect of change(s)
 
