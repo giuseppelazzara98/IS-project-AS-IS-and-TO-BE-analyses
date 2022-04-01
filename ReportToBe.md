@@ -159,7 +159,7 @@ Control mechanism (mechanism used by applications to interact, ex message passin
 
 # IT strategy
 
-The introduction of a new application follows the Business Strategy of creating values, in this case, for the customer. II will likely need a reorganization in order to meet new requests on data management.
+The introduction of a new application follows the Business Strategy of creating values, in this case, for the customer. It will likely need a reorganization in order to meet new requests on data management.
 
 # Effect of change(s)
 
