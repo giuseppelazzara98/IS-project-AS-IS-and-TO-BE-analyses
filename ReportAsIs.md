@@ -190,11 +190,11 @@ For all these reasons, the IT strategy can be considered consistent with the bus
 | N_P | General | Number of proofs realized per year | Count | - | - |
 | N_CO | General | Number of customer's orders per year | Count | - | - |
 | N_ECS | General | Number of employees belonging to the customer service | Count | - | - |
-| N_ECS | General | Number of employees belonging to the Altopascio competence center (including employees of the graphic department) | Count | - | - |
+| N_ACC | General | Number of employees belonging to the Altopascio competence center (including employees of the graphic department) | Count | - | - |
 | LT_PRD | Service | It is the time needed for the factory to ensure production availability, both for a capacity point of view and a material's order timing. It can be changed accordingly with RBL, Regional Business Logistic Director and sales representees, increased ad hoc in case of issues based on the capacity of the line or other issues | Time | - | - |
 | P_R | Service | Punctuality in delivering the work with respect to the estimated time | Time | CSF2 | - |
 | LT_R | Service | Lead time for proof realization (from the EC asks for a proof realization, to the CS sends the proof realized with comment on feasibility asking the approval from the end customer) | Time | CSF3, CSF4 | - |
-| T_C | Efficiency | Effort of employees belonging to the Altopascio competence center + effort of employees belonging to the customer service + cost of the software licences | Euro | - | - |
+| T_C1 | Efficiency | Effort of employees belonging to the Altopascio competence center + effort of employees belonging to the customer service + cost of the software licences | Euro | - | - |
 | UC_O | Efficiency | Unit cost for an order = T_C / N_CO | Euro | CSF8 | - |
 | C_P | Quality | 100 * (#customer's orders with defects / N_CO) -> Order with defects: order issued with a proof realization not approved by customer, order issued with an old proof realization ecc. | % | CSF1 | - |
 | C_S | Quality | Customer satisfaction | Direct contact with CS representative | CSF1, CSF2, CSF3 | - |
@@ -205,13 +205,14 @@ For all these reasons, the IT strategy can be considered consistent with the bus
 | :---: | :---: | :--- | :---: | :---: | :---: |
 | N_S | General | Number of shipments per year | Count | - | - |
 | N_EPS | General | Number of employees belonging to product service | Count | - | - |
+| N_EPD | General | Number of employees belonging to planning department | Count | - | - |
 |N_ESS | General | Number of employees belonging to supply service | Count | - | - |
 | LT_P | Service | Lead time of orders' planning (from customer's order entered to order delivered at delivery plant) | Time | CSF5 | - |
 | T_GRP | Service | Time needed to send goods from producing plant to the shipping warehouse | Time | CSF5 | - |
 | T_GIP | Service | Time needed for goods' acceptance and shipment's preparation | Time | CSF5 | - |
 | T_T | Service | Time needed to send the goods to delivery destination | Time | CSF5 | - |
 | T_CH | Service | Time needed to check availability of materials in stock | Time | CSF9 | - |
-| T_C | Efficiency | Effort of employees belonging to supply service + effort of employees belonging to product service + cost of shipments + cost of software licences | Euro | - | - |
+| T_C2 | Efficiency | Effort of employees belonging to supply service + effort of employees belonging to product service + effort of employees belonging to planning department + cost of shipments + cost of software licences | Euro | - | - |
 | UC_S | Efficiency | Unit cost of shipments = T_C / N_D | Euro | CSF7 | - |
 | P_S | Quality | Punctuality of shipment with respect to the shipment's estimated time | Time | CSF1, CSF6 | - |
 | N_OD | Quality | 100*(#shipments with defects / N_S) -> Shipments with defects: order assigned to the wrong shipment, shipment done to the wrong delivery plant ecc. | % | CSF1, CSF6 | - |
