@@ -158,12 +158,11 @@ The second one concerns the orders for raw materials with the introduction of ba
 
 #### Integration
 
-In case a new application is introduced discuss how integration happens in terms of
-
-Data exchange (which data is exchanged)
-
-Control mechanism (mechanism used by applications to interact, ex message passing, rpc, etc)
-
+The new applications interact with the actual system through a modify on SAP System interface.
+The advantage is that only with a modify, all the parts of the system(from proof save interface to the  planning department interface) are linked perfectly.
+The customer app is linked with SAP through the existing interface for Customer Service.
+The same for the CRW app that communicate with the system through the planning department infrastructure.
+With this configuration there aren't inconsistencies and percentage to make an error (from the order to the delivery) drastically decrease. 
 # IT strategy
 
 Applications development is not Essity's core business and hiring resources to develop them is not a necessary effort for the company. This is why the choice to entrust the development of the app to a specialized external company makes sense and allows the IT office to focus on the security of the customer's data, which remains internalized.
