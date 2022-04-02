@@ -137,7 +137,7 @@ The two new applications introduced have to be developed custom for the company.
 
 In particular, we thought that according to the IT strategy, it would be better for the company to outsource only the front-end development of the two applications. 
 
-As a metter of fact, the core business of the company is not to develop software and so, relying on external developers should be less expensive in terms of time and money and also allows the company to continue focusing resources and employees on the same objectives of the As Is situation but, on the other hand, these applications, should manage a lot of sensible informations and then, it would be better if the back-end development of the applications, based on aspects like privacy and security of users, is managed and developed internally.
+As a matter of fact, the core business of the company is not to develop software and so, relying on external developers should be less expensive in terms of time and money and also allows the company to continue focusing resources and employees on the same objectives of the As Is situation but, on the other hand, these applications, should manage a lot of sensible informations and then, it would be better if the back-end development of the applications, based on aspects like privacy and security of users, is managed and developed internally.
 
 #### Coverage
 
@@ -218,7 +218,11 @@ Assuming:
 
 ## Risks
 
-Discuss the main risks (technological, organizational, human factors) related to the change, and what can be done to reduce them
+The main risks are related to the human factor, in fact, it is possible that employees may not agree to learn how to use the new softwares, or, it is possible that they could take a long time to do it and also do it badly. In addition, the customer may also reject the changes as he doesn't like the new system.
+
+There could be other risks related to the technological factor, as a matter of fact, although the back-end development of the applications is done internally and the company has the whole control on privacy and security of data, the front-end developers of the applications, could make some mistakes implementing wrong functionalities or misintrepreting the defined requirements.
+
+These risks could make the whole process less efficient and definitely, the company has to keep under control all these aspects, for instance, trying as much as possible to introduce the new functions into the system gradually or trying to invest an appropriate amount of time on training of employees.
 
 # Conclusion
 
