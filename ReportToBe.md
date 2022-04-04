@@ -225,4 +225,9 @@ These risks could make the whole process less efficient and definitely, the comp
 
 # Conclusion
 
-In summary, why the organization should buy (and pay for) your proposal of change?
+The new applications will be extremely beneficial to the company. The CAPP application will bring an increase in customer statisfaction (one of the main focuses of the Essity company) with greater and frequent attention to the customer's needs and ideas. On the other hand, the CRW application will decrease the waiting times in the planning process and formalize the raw material ordering process, making the whole production process smoother and without interruptions. 
+As a result, the cost of these changes will be balanced by the increase in the company's turnover. Finally, the structure of the company won't be seeing a dramatic change, since the softwares used are going to be developed by an external company. 
+All these factors bring us to the conclusion that these changes represent a good investment and would be a valuable asset to Essity's development and progress in the global market.
+
+
+
