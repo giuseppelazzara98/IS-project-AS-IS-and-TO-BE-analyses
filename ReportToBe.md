@@ -71,6 +71,7 @@ Report the PICK chart (see process redesign chapter)  used to select the process
 ### Process 1
 
 The main problem we found in the As-Is product design process was the number of steps required to fufill a simple request to the Graphic's department. The End customer had to first contact the Essity Customer Service, then the CS had to contact the Altopascio competence center's Product service department, who would have to record in a database the requests to keep track of them. At this point the PS department could contact the Graphic's department and ask for the check and the proof realization. 
+
 All these communications were done by email, so the process was bound to create difficulties in case of an human error (employee fails to send email) and it could take a great amount of time, especially if we consider that a product design can be sent back many times before the final approval. 
 
 We can fix these problems using a specific application that gives direct contact between the End Customer and the Graphic's department. When the EC finished the product design example, he can upload it to the application using a specific request form and notify the Graphic's department, who can at that point start the procedure to check the feasibility of the design. All the communications and the feedback between the two entities can be done through the application, who will send a specific notification every time, and are stored in the application's database.
@@ -102,7 +103,9 @@ The Essity Customer Service department's employees also have accounts to manage 
 
 In the As-Is process the Planning Department has to check the raw material stock for every order received. If the materials are not enough to fufill the order, the department has to get in touch directly with the suppliers and reject the order while it waits for the Production facility to replenish their stock. This is a problem because it loses the company a lot of time waiting for the raw materials and it makes them postpone orders. 
 To fix this problem we thought the Production Facility could implement its own checking process for the stock. 
+
 Every material in the facility gets scanned manually with a bar code scanner and is recorded on the application so that we can keep track of the materials that exit the warehouse. The stock is checked by a production department employee through the application every day, and if it gets under a certain threshold the application manages the order request for the suppliers. After the supplier notifies the shipping of the raw materials, the production facility stock gets replenished. 
+
 The application has an inventory of the products for the warehouse that are associated with a specific barcode. It also has an account for the suppliers and the production facility to manage the communications between them, for example when the production facility needs to order new material. 
 In the application it's also possible to modify the stock's threshold.
 
@@ -226,7 +229,9 @@ These risks could make the whole process less efficient and definitely, the comp
 # Conclusion
 
 The new applications will be extremely beneficial to the company. The CAPP application will bring an increase in customer statisfaction (one of the main focuses of the Essity company) with greater and frequent attention to the customer's needs and ideas. On the other hand, the CRW application will decrease the waiting times in the planning process and formalize the raw material ordering process, making the whole production process smoother and without interruptions. 
+
 As a result, the cost of these changes will be balanced by the increase in the company's turnover. Finally, the structure of the company won't be seeing a dramatic change, since the softwares used are going to be developed by an external company. 
+
 All these factors bring us to the conclusion that these changes represent a good investment and would be a valuable asset to Essity's development and progress in the global market.
 
 
