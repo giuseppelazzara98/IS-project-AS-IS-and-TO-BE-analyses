@@ -39,8 +39,6 @@ We think that these problems can be solved by introducing two applications, one 
 
 The IT Office will slightly change because new backend functionality will be added to manage the new application. The main change will be an reorganization of the existing team, creating a department entirely focused on the customer application.
 
-## Formalization specialization centralization
-
 ## Organizational type
 
 &#39;no change&#39;
@@ -61,8 +59,6 @@ The new process is managed by an application that allows the automatization of t
 Furthermore, it's now possible for the customers to add comments while approving or rejecting the proof and a design feasibility will be attached to each request, even when the request is rejected by the "Altopascio competence center".
 
 ## Functional view, processes
-
-Write no change if the model remains as in As Is
 
 ### Process selection
 
@@ -166,6 +162,7 @@ The advantage is that only with a modify, all the parts of the system(from proof
 The customer app is linked with SAP through the existing interface for Customer Service.
 The same for the CRW app that communicate with the system through the planning department infrastructure.
 With this configuration there aren't inconsistencies and percentage to make an error (from the order to the delivery) drastically decrease. 
+
 # IT strategy
 
 Applications development is not Essity's core business and hiring resources to develop them is not a necessary effort for the company. This is why the choice to entrust the development of the app to a specialized external company makes sense and allows the IT office to focus on the security of the customer's data, which remains internalized.
