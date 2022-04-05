@@ -103,7 +103,7 @@ The organization is a divisionalized bureaucracy because it has various brands a
 
 ## Functional view, processes
 
-| Process name | Description (text) | Input | Output |
+| Process name | Description | Input | Output |
 | --- | --- | --- | --- |
 |P1. Mananging of customer complaints|The customer makes a complaint about a product or a service offered by the company and gets assistance  | Customer complaint (email, face to face or call center) | Recorded compliant |
 |P2. Product design PT1| End customer (EC) asks to the customer service (CS) of reference for a proof realization of a specific design. The CS representative gets in contact with the product service specialist (PS) belonging to the Altopascio competence center asking for a check on design feasibility and proof realization for it | Example of customer logo  | |
