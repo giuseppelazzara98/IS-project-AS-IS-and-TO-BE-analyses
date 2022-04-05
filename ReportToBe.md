@@ -62,7 +62,7 @@ Furthermore, it's now possible for the customers to add comments while approving
 
 ### Process selection
 
-Report the PICK chart (see process redesign chapter)  used to select the process to be changed and argument about it
+We omitted the PICK chart because the processes presented in the As Is situation had already a good structure and didn't need many improovements. The only changes we wanted to implement, were also possible and didn't represent a **Challenge** for the company. Our proposal for the implementation will be explained below.
 
 ### Process 1
 
@@ -137,16 +137,6 @@ The two new applications introduced have to be developed custom for the company.
 In particular, we thought that according to the IT strategy, it would be better for the company to outsource only the front-end development of the two applications. 
 
 As a matter of fact, the core business of the company is not to develop software and so, relying on external developers should be less expensive in terms of time and money and also allows the company to continue focusing resources and employees on the same objectives of the As Is situation but, on the other hand, these applications, should manage a lot of sensible informations and then, it would be better if the back-end development of the applications, based on aspects like privacy and security of users, is managed and developed internally.
-
-#### Coverage
-
-Show how the selected application provides the software functions needed (as identified in Functional view, processes section), discuss gaps, if any
-
-| Software function needed (from process view) | Software function provided by application selected | Gap analysis |
-| --- | --- | --- |
-|   |   |   |
-
-
 
 ### Technological view
 ![DeploymentDiagramTOBE](Images/DeploymentDiagramTOBE.jpg)
