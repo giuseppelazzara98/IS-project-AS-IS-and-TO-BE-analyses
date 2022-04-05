@@ -62,7 +62,7 @@ Furthermore, it's now possible for the customers to add comments while approving
 
 ### Process selection
 
-We omitted the PICK chart because the processes presented in the As Is situation had already a good structure and didn't need many improovements. The only changes we wanted to implement, were also possible and didn't represent a **Challenge** for the company. Our proposal for the implementation will be explained below.
+We omitted the PICK chart because the processes presented in the As Is situation had already a good structure and didn't need many improvements. The only changes we wanted to implement, were also possible and didn't represent a **Challenge** for the company. Our proposal for the implementation will be explained below.
 
 ### Process 1
 
