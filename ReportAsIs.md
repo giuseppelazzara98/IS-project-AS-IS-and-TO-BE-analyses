@@ -115,6 +115,8 @@ The organization is a divisionalized bureaucracy because it has various brands a
 | P8. Production planning | Planning department confirm planned order in SAP and transform it into a production order, so it’s then visible to production’s people via Plain, an internal database linked to SAP which shows all relevant information (dates, quantities and duration) needed to start the preparation of the materials and organize all the activities the correct times.| Calendar of planned orders | Final production calendar |
 | P9. Product Shipment and delivery | When production is completed, Product Service creates a delivery number to associate order from the producing plant to the delivery plant. Supply Service takes care of the custom print shipping, creating the shipment number which is linked to delivery number, and can contain different orders to be sent to the same country: this information is filled and shared with carries via Transporeon, a digital platform. Carriers take care of reserving a loading slot on Transporeon platform for the day the load is requested from SAP. | Delivery number | New Shipment number and time |
 
+**Notes**
+The End Customer can be an external company that requests a specific design and production for a product or it can be the Essity company itself that requests a design for a new product. This design includes both the packaging and the model of the product itself. For example, if we want to design a new napkin model, we need to design all the napkin's features (shape, type of the paper, packaging, etc.). 
 
 BPMN view - Process 1
 
