@@ -157,7 +157,7 @@ The IT services outsourced are:
 
 IT in Essity plays an important role in planning production effectively, reducing costs, time and preserving the delivery date.
 
-Althought all these aspects are relevant, planning requires standard tools already offered by specialized society. Indeed, they need applications to manage production date, orders, row material and delivery, functionalities offered by tools like SAP, Plain, Transporeon.
+Althought all these aspects are relevant, planning requires standard tools already offered by specialized society. Indeed, they need applications to manage production date, orders, raw material and delivery, functionalities offered by tools like SAP, Plain, Transporeon.
 
 Sensitive and important information, such as customers data, are collected in a database that reasonably should be managed by the internal IT office. Essity hasn't shared this information with us, so it is our assumption considering the size of the company and some process descriptions.
 
