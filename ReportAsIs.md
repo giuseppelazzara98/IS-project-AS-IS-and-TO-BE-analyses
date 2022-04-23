@@ -67,18 +67,14 @@ Another important point is that whatever is done, has to create a certain value.
 
 
 ## Structure
-The global organization is the following:
+The organizational chart is the following:
 
 ![Organization chart](Images/Schermata_2022-03-02_alle_20.06.26.png)
 
-Essity is an organization that has a functional, geographical and divisional structure. It is divided into group functions (HR, Finance, Communications, Legal Affairs, Strategy & Business Development) and global units (Professional Hygiene, Consumer Goods, Latin America, Health and Medical Solutions, Global Supply Chain, Global Brand, Innovation and Sustainability, Global Operational Services).
-
-![Organization chart2](Images/Schermata_2022-03-02_alle_20.24.32.png)
-
-Also in Italy the organizational structure is the same.
+Essity is an organization that has a functional, geographical and divisional structure.
 
 In addition to a legal and administrative office in Altopascio (Lucca) and a commercial office (Sales & Marketing) in Legnano (Milan), Essity in Italy has three plants located in Porcari (Lucca), Altopascio (Lucca) and Collodi (Pistoia) dedicated to "tissue" production.
-
+The IT part on the organizational chart is not specified because, as written below, we dont'have enough informations.
 ### IT/IS  group / office
 
 The IT office is centralized and based in Germany. Unfortunately, the company hasn’t shared with us any further information on how it is organized and managed. In any case, by the size of the company and the description of some processes it is possible to say that probably the IT office is in charge of the management of the database used to collect and handle the orders, as well as the security of customer data.
