@@ -12,6 +12,8 @@ Category: production and selling of hygiene and health care goods
 
 Website: [www.essity.it](https://www.essity.it/)
 
+The analysis in the first paragraphs of this document covers information from both Essity Italy S.p.A and worldwide Essity Company (ex. turn over, certifications etc.)
+
 # Financial and legal information
 
 Legal form: S.p.A.
@@ -71,6 +73,8 @@ The organizational chart is the following:
 
 ![Organization chart](Images/Schermata_2022-03-02_alle_20.06.26.png)
 
+![Organizational chart2](Images/organizational_chart.png)
+
 Essity is an organization that has a functional, geographical and divisional structure.
 
 In addition to a legal and administrative office in Altopascio (Lucca) and a commercial office (Sales & Marketing) in Legnano (Milan), Essity in Italy has three plants located in Porcari (Lucca), Altopascio (Lucca) and Collodi (Pistoia) dedicated to "tissue" production.
@@ -122,6 +126,9 @@ Here we will describe only the design process of the product and not the product
 ![Process 1](Images/proc1.png)
 
 BPMN view - Process 2
+
+The raw materials stock has a safety treshold so that the orders are never postponed while the production facility order from suppliers.
+The treshold is computed monthly from many factors. The company didn't tell us more about this but as we studied, we can assume that it could be based on a market analysis.  
 
 ![Process 2](Images/proc2.png)
 
