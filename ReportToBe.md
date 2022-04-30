@@ -9,7 +9,7 @@ Essity is a growing company focused on staying closer to customers and, at the s
 Indeed, both processes, raw material check and product design, have some problems: 
 - in the "product design" process the comunications between customer and company and between different department of the same company is based on email: customer send a request to the customer service via email, which fills a new request and sends it to the Altopascio competence center, again, via email ect. Moreover, customers have no feedback on the status of the request and, after they have submitted it, they can't give feedback on the proof apart from accepted/rejected.
 Furthermore we believe that the process of request (customer make a request - graphic department give a feedback) has more steps than necessary, and so it could be accelerated.
-- in the "raw material check" process every time a order arrives, it must be checked if the raw material are sufficient, otherwise the order can't be satisfied untill the arrival of new raw materials. Checking raw material everytime a order arrives can cause a block on the production and possibly a delay in the delivery date.
+- in the "raw material check" every day an employee manually checked if the raw material are under a certain threshold and, if so, a new order is made by calling or emailing suppliers.
 
 We think that these problems can be solved by introducing two applications, one B2C called CAPP and one B2B called CRW: the B2B app will be used to semi-automate the process of raw material checking, which will notify employees when new material needs to be ordered, while the B2C application will fully automate the request for a new order, enabling in-app communication instead of the use of emails.
 
