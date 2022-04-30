@@ -96,9 +96,7 @@ The Essity Customer Service department's employees also have accounts to manage 
 
 
 ### Process 2
-
-In the As-Is process the Planning Department has to check the raw material stock for every order received. If the materials are not enough to fufill the order, the department has to get in touch directly with the suppliers and reject the order while it waits for the Production facility to replenish their stock. This is a problem because it loses the company a lot of time waiting for the raw materials and it makes them postpone orders. 
-To fix this problem we thought the Production Facility could implement its own checking process for the stock. 
+In the As-Is Process the supplier orders are done by email or by calling the supplier company after the employees  check manually if the raw materials in stock are under the current threshold. We decided that a way to improve this process would be an application used by both the company and the supplier that notified automatically the supplier for a new raw material order when the stock goes under threshold.
 
 Every material in the facility gets scanned manually with a bar code scanner and is recorded on the application so that we can keep track of the materials that exit the warehouse. The stock is checked by a production department employee through the application every day, and if it gets under a certain threshold the application manages the order request for the suppliers. After the supplier notifies the shipping of the raw materials, the production facility stock gets replenished. 
 
